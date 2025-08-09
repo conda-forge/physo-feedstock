@@ -1,5 +1,5 @@
 {% set name = "physo" %}
-{% set version = "1.1.10" %}
+{% set version = "1.1.11" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: c568a95bddc8d25f31d4342bced0c7c922b798578074954f5350d8ec1f51b5df
+  sha256: 97b656dc74904650790236253fb8ba6c7f56ef02a180acd2801fbb166019fdb4
 
 build:
   noarch: python
